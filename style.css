@@ -5,11 +5,13 @@
 body{
     background-color: rgb(121, 121, 175);
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     color: white;
-    font-size: 40px;
+    font-size: 60px;
 }
 h2{
     font-size: 30px;
@@ -26,7 +28,7 @@ ol li{
 }
 
 li {
-    font-size: 30px;
+    font-size: 40px;
 }
 a {
     color: white;
@@ -44,4 +46,22 @@ a:hover{
 .homepage-return{
     font-size: 30px;
     padding: 1rem 1rem;
+}
+
+.Recipes-list{
+    background-color: wheat;
+    width: 50%;
+    min-height: 200px;
+    margin: 0 auto;
+    border: solid rgb(129, 73, 26);
+    padding: 5px;
+}
+.Recipes-list li{
+    margin-top: 2rem;
+}
+.Recipes-list a{
+    color: black;
+}
+.Recipes-list a:hover{
+    color: rgb(124, 124, 124);
 }
