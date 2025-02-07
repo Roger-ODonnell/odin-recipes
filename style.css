@@ -15,6 +15,7 @@ h1{
 }
 h2{
     font-size: 30px;
+    color: rgb(231, 183, 93);
 }
 
 ul{
@@ -28,7 +29,7 @@ ol li{
 }
 
 li {
-    font-size: 40px;
+    font-size: 30px;
 }
 a {
     color: white;
@@ -38,9 +39,22 @@ a:hover{
     color: rgb(238, 207, 67);
 }
 
+img{
+    border-radius: 1rem;
+    height: auto;
+    max-width: 300px;
+    border: solid 2px orange;
+}
+
+.border-line{
+    border-bottom: solid black 2px;
+    width: 50%;
+    margin: 0 auto;
+}
+
 .recipe-description{
     font-size: 25px;
-    color: rgb(49, 49, 49);
+    color: rgb(255, 246, 246);
 }
 
 .homepage-return{
